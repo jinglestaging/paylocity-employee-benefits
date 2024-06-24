@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  form {
+    @apply flex w-full gap-2;
+  }
+
+  input {
+    @apply border border-stone-200 h-[40px] px-2 flex-1 rounded-[6px];
+  }
+
+  button {
+    @apply text-[#ff395c] h-[40px] px-2 rounded-[6px] font-semibold;
+  }
+}
